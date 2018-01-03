@@ -3,7 +3,7 @@
   "version": "1.3.0",
   "private": true,
   "scripts": {
-    "start": "cd ./lib && node Bootstrap 1",
+    "start": "cd ./src && node bootstrap.js",
     "build": "./node_modules/.bin/babel src -d lib"
   },
   "dependencies": {
